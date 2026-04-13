@@ -4,6 +4,23 @@
 I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized product companies across India (Noida, Mumbai, Hyderabad, Bangalore, Pune, Chennai).  
 **Target interview month:** October 2026  
 
+## Tracking Spreadsheet
+[Link to my DSA tracker](https://docs.google.com/spreadsheets/d/15WzS5Y2ctfZ0l-fr2f4DPp2ZhxasnAeIRVmbQWHhnSw/edit?usp=sharing)  
+
+## Problems Solved So Far
+
+### Arrays (Week 1 – April 13, 2026)
+| Problem | Solution | Optimal? | Follow‑up solved? |
+|---------|----------|----------|-------------------|
+| Product of Array Except Self (LC 238) | O(n) time, O(1) space (output array) | ✅ | N/A |
+| Missing Number (LC 268) | Sum formula `n*(n+1)/2 - sum` | ✅ | ✅ (XOR method also implemented) |
+| Find All Numbers Disappeared (LC 448) | In‑place negation | ✅ | ✅ |
+| Maximum Subarray (LC 53) | Kadane’s algorithm | ✅ | N/A |
+
+### Redos (from earlier failed attempts)
+- Valid Palindrome (LC 125) – O(1) space two pointers
+- Longest Common Prefix (LC 14) – horizontal scanning
+
 ## Plan
 - Follow a structured weekly checklist (Arrays → Sliding Window → Two Pointers → Strings → Sorting → Linked List → Stack/Queue → Heaps → Trees → Graphs → DP → Backtracking → Intervals → Greedy → Bit Manipulation → Mocks)
 - Solve problems daily, push code to this repo
@@ -13,7 +30,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 
 ## Progress
 - Start date: April 12, 2026
-- LeetCode problems solved: 0 (will update daily)
+- LeetCode problems solved: 6 (will update daily)
 
 ## Redo List (problems to revisit)
 - [ ] 3Sum (scheduled Apr 30)
