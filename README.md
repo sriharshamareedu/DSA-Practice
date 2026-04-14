@@ -17,6 +17,12 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 | Find All Numbers Disappeared (LC 448) | In‑place negation | ✅ | ✅ |
 | Maximum Subarray (LC 53) | Kadane’s algorithm | ✅ | N/A |
 
+### Sliding Window (Week 2 – April 14/15, 2026)
+| Problem | Solution | Optimal? | Notes |
+|---------|----------|----------|-------|
+| Minimum Size Subarray Sum (LC 209) | Sliding window – expand right, shrink left | ✅ | O(n) time, O(1) space |
+| Fruit Into Baskets (LC 904) | Sliding window with at most 2 distinct fruits | ✅ | O(n) time, O(1) space |
+
 ### Redos (from earlier failed attempts)
 - Valid Palindrome (LC 125) – O(1) space two pointers
 - Longest Common Prefix (LC 14) – horizontal scanning
@@ -30,7 +36,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 
 ## Progress
 - Start date: April 12, 2026
-- LeetCode problems solved: 6 (will update daily)
+- LeetCode problems solved: 8 (will update daily)
 
 ## Redo List (problems to revisit)
 - [ ] 3Sum (scheduled Apr 30)
