@@ -24,12 +24,13 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 | Fruit Into Baskets (LC 904) | Sliding window with at most 2 distinct fruits | ✅ | O(n) time, O(1) space |
 | Longest Repeating Character Replacement (LC 424) | Sliding window with max frequency count | ✅ | O(n) time, O(1) space (26 letters) |
 
-### Two Pointers (Week 3 – April 16/17, 2026)
+### Two Pointers (Week 3 – April 16,17 and 19, 2026)
 | Problem | Solution | Optimal? | Notes |
 |---------|----------|----------|-------|
 | Sort Colors (LC 75) | Dutch national flag algorithm (three pointers) | ✅ | O(n) time, O(1) space |
 | 3Sum (LC 15) | Two pointers after sorting | ✅ | O(n²) time, O(1) extra space (excluding output) |
 | 4Sum (LC 18) | Two pointers with nested loops | ✅ | O(n³) time, O(1) space. Learned: int overflow → double → long (best). |
+| Container With Most Water (LC 11) | Two pointers – move the pointer with the smaller height inward | ✅ | O(n) time, O(1) space. Classic area maximisation problem. |
 
 ### Redos (from earlier failed attempts)
 - Valid Palindrome (LC 125) – O(1) space two pointers
@@ -44,11 +45,11 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 
 ## Progress
 - Start date: April 12, 2026
-- LeetCode problems solved: 12 (will update daily)
+- LeetCode problems solved: 13 (will update daily)
 
 ## Redo List (problems to revisit)
 - [x] 3Sum (solved early on Apr 16) ✅
-- [ ] Container With Most Water (scheduled May 1)
+- [x] Container With Most Water (solved early on Apr 19) ✅
 - [ ] Find Minimum in Rotated Sorted Array (scheduled May 16)
 - [ ] Copy List with Random Pointer (scheduled May 26)
 - [ ] Merge k Sorted Lists (scheduled May 27)
