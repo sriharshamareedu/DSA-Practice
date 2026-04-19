@@ -47,16 +47,22 @@
 - ✅ Created this daily win file
 - ✅ Prioritised rest and early sleep (no new DSA problems)
 - ✅ Discussed LinkedIn Premium with parents (decision pending)
-**Sleep crisis:** 3 consecutive nights of ~5 hours sleep. Priority #1 is fixing this before learning new topics.
-  
-## Summary (Apr 13–18)
+
+## April 19, 2026 (Sunday)
+- ✅ Slept 6–6.5 hours – improvement from previous nights
+- ✅ Solved Container With Most Water (LC 11) – two pointers, O(n) time
+- ✅ Updated README, spreadsheet, and redo list
+- ✅ Marked 3Sum and Container With Most Water as completed redos
+- ✅ Total problems solved now: 13
+
+## Summary (Apr 13–19)
 | Topic | Problems Solved |
 |-------|----------------|
 | Arrays | 4 |
 | Sliding Window | 3 |
-| Two Pointers | 3 (Sort Colors, 3Sum, 4Sum) |
-| **Total** | **10 new + 2 redos = 12 problems** |
+| Two Pointers | 4 (Sort Colors, 3Sum, 4Sum, Container With Most Water) |
+| **Total** | **11 new + 2 redos = 13 problems** |
 
-**Status:** Ahead of schedule (Week 3 Two Pointers almost complete by April 18, original plan had Two Pointers in Week 3 starting April 26).  
-**Focus for next week:** Complete Two Pointers (Container With Most Water, Trapping Rain Water if time), then move to Strings (Week 4).  
-**Sleep goal:** Fix sleep schedule – in bed by 9:30 PM, no screens after 9:00 PM.
+**Status:** Week 3 (Two Pointers) complete by April 19 – ahead of schedule.  
+**Next:** Start Week 4 (Strings) or rest.  
+**Sleep goal:** Maintain 6.5+ hours – in bed by 10:00 PM, no screens after 9:30 PM.
