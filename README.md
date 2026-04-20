@@ -37,6 +37,12 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 |---------|----------|----------|-------------------|-------|
 | Min Stack (LC 155) | Two stacks – one for values, one for running minimum | ✅ (time) | ✅ (single‑stack diff method understood) | O(1) time all ops, O(n) extra space. Chose clarity over space micro‑optimisation. |
 
+### Strings (Week 4 – April 20, 2026)
+| Problem | Solution | Optimal? | Notes |
+|---------|----------|----------|-------|
+| Longest Palindromic Substring (LC 5) | Expand around center | ✅ | O(n²) time, O(1) space. Handled odd/even length palindromes. |
+| String to Integer (atoi) (LC 8) | Iterate with edge case handling | ✅ | O(n) time, O(1) space. Trim, sign, overflow check, break on non‑digit. |
+
 ### Redos (from earlier failed attempts)
 - Valid Palindrome (LC 125) – O(1) space two pointers
 - Longest Common Prefix (LC 14) – horizontal scanning
@@ -50,7 +56,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 
 ## Progress
 - Start date: April 12, 2026
-- LeetCode problems solved: 14 (will update daily)
+- LeetCode problems solved: 16 (will update daily)
 
 ## Redo List (problems to revisit)
 - [x] 3Sum (solved early on Apr 16) ✅
