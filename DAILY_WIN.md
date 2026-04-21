@@ -63,14 +63,21 @@
 - ✅ Non‑coding task: Sent 2 connection requests
 - **Sleep:** 6–6.5 hours – slight improvement, still aiming for 7+
 
-## Summary (Apr 13–20)
+## April 21, 2026 (Tuesday)
+- ✅ Solved Count and Say (LC 38)
+- ✅ Solved Compare Version Numbers (LC 165)
+- ✅ Updated README, spreadsheet, daily win
+- ✅ Total problems solved now: 18
+- **Sleep:** 6–6.5 hours (steady, aiming for 7)
+
+## Summary (Apr 13–21)
 | Topic | Problems Solved |
 |-------|----------------|
 | Arrays | 4 |
 | Sliding Window | 3 |
 | Two Pointers | 4 (Sort Colors, 3Sum, 4Sum, Container With Most Water) |
 | Stack | 1 (Min Stack) |
-| Strings | 2 (LC 5, LC 8) |
+| Strings | 4 (LC 5, LC 8, LC 38, LC 165) |
 | Redos (counted separately) | 2 (Valid Palindrome, Longest Common Prefix) |
 | **Total** | **16 problems** |
 
