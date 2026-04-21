@@ -55,14 +55,25 @@
 - ✅ Marked 3Sum and Container With Most Water as completed redos
 - ✅ Total problems solved now: 13
 
-## Summary (Apr 13–19)
+## April 20, 2026 (Monday)
+- ✅ Solved Longest Palindromic Substring (LC 5) – expand around centre
+- ✅ Solved String to Integer (LC 8) – atoi with edge cases
+- ✅ Updated README, spreadsheet, and daily win
+- ✅ Total problems solved now: 16
+- ✅ Non‑coding task: Sent 2 connection requests
+- **Sleep:** 6–6.5 hours – slight improvement, still aiming for 7+
+
+## Summary (Apr 13–20)
 | Topic | Problems Solved |
 |-------|----------------|
 | Arrays | 4 |
 | Sliding Window | 3 |
 | Two Pointers | 4 (Sort Colors, 3Sum, 4Sum, Container With Most Water) |
-| **Total** | **11 new + 2 redos = 13 problems** |
+| Stack | 1 (Min Stack) |
+| Strings | 2 (LC 5, LC 8) |
+| Redos (counted separately) | 2 (Valid Palindrome, Longest Common Prefix) |
+| **Total** | **16 problems** |
 
-**Status:** Week 3 (Two Pointers) complete by April 19 – ahead of schedule.  
-**Next:** Start Week 4 (Strings) or rest.  
-**Sleep goal:** Maintain 6.5+ hours – in bed by 10:00 PM, no screens after 9:30 PM.
+**Status:** Week 4 (Strings) started on April 20 – still ahead of schedule.  
+**Next:** Continue Week 4 (Count and Say, Compare Version Numbers) or review.  
+**Sleep goal:** Maintain 7+ hours – in bed by 10:00 PM, no screens after 9:30 PM.
