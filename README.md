@@ -42,6 +42,8 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 |---------|----------|----------|-------|
 | Longest Palindromic Substring (LC 5) | Expand around center | ✅ | O(n²) time, O(1) space. Handled odd/even length palindromes. |
 | String to Integer (atoi) (LC 8) | Iterate with edge case handling | ✅ | O(n) time, O(1) space. Trim, sign, overflow check, break on non‑digit. |
+| Count and Say (LC 38) | Iterative string building | ✅ | O(2ⁿ) time worst? but O(n) with StringBuilder |
+| Compare Version Numbers (LC 165) | Split by dots, parse integers, handle different lengths | ✅ | O(n+m) time, O(1) extra space |
 
 ### Redos (from earlier failed attempts)
 - Valid Palindrome (LC 125) – O(1) space two pointers
@@ -56,7 +58,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 
 ## Progress
 - Start date: April 12, 2026
-- LeetCode problems solved: 16 (will update daily)
+- LeetCode problems solved: 18 (will update daily)
 
 ## Redo List (problems to revisit)
 - [x] 3Sum (solved early on Apr 16) ✅
