@@ -70,17 +70,29 @@
 - ✅ Total problems solved now: 18
 - **Sleep:** 6–6.5 hours (steady, aiming for 7)
 
-## Summary (Apr 13–21)
+## April 22, 2026 (Wednesday)
+- ✅ Solved Find Peak Element (LC 162) – binary search boundary template
+- ✅ Deep dive into rotated sorted array search pattern
+- ✅ **Key Insight:** Understood why `nums[left]` must replace `nums[0]` as the dynamic pivot
+- ✅ Attempted LC 81 (Search in Rotated Sorted Array II) – identified core mistake, did not look at solution
+- ✅ Created concrete plan: LC 153 → LC 33 → LC 81 for tomorrow morning
+- ✅ **Discipline Win:** Stopped at 7:49 PM despite frustration; prioritised rest and overnight consolidation
+- ✅ Updated README with Binary Search section and redo list
+- ✅ Total problems solved now: 19
+- **Sleep:** *(will log tomorrow)*
+
+## Summary (Apr 13–22)
 | Topic | Problems Solved |
 |-------|----------------|
 | Arrays | 4 |
 | Sliding Window | 3 |
-| Two Pointers | 4 (Sort Colors, 3Sum, 4Sum, Container With Most Water) |
-| Stack | 1 (Min Stack) |
-| Strings | 4 (LC 5, LC 8, LC 38, LC 165) |
-| Redos (counted separately) | 2 (Valid Palindrome, Longest Common Prefix) |
-| **Total** | **16 problems** |
+| Two Pointers | 4 |
+| Stack | 1 |
+| Strings | 4 |
+| Binary Search | 1 |
+| Redos (counted separately) | 2 |
+| **Total** | **19 problems** |
 
-**Status:** Week 4 (Strings) started on April 20 – still ahead of schedule.  
-**Next:** Continue Week 4 (Count and Say, Compare Version Numbers) or review.  
+**Status:** Week 5 (Binary Search) started on April 22 – slightly ahead of schedule.  
+**Next:** Solve LC 153 (Find Minimum in Rotated Sorted Array), then LC 33, then revisit LC 81.  
 **Sleep goal:** Maintain 7+ hours – in bed by 10:00 PM, no screens after 9:30 PM.
