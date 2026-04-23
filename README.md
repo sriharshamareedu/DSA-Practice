@@ -45,11 +45,12 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 | Count and Say (LC 38) | Iterative string building | ✅ | O(2ⁿ) time worst? but O(n) with StringBuilder |
 | Compare Version Numbers (LC 165) | Split by dots, parse integers, handle different lengths | ✅ | O(n+m) time, O(1) extra space |
 
-### Binary Search (Week 5 – April 22, 2026)
+### Binary Search (Week 5 – April 22/23, 2026)
 | Problem | Solution | Optimal? | Notes |
 |---------|----------|----------|-------|
-| Find Peak Element (LC 162) | Binary search with `left < right` and `right = mid` | ✅ | O(log n) time, O(1) space. Learned Template 2 for boundary search; why floor division pairs with `left = mid + 1`. |
-| Search in Rotated Sorted Array II (LC 81) | *Not yet solved* – understanding rotated search framework | ⏳ | Spent 30+ min; identified core mistake (using `nums[0]` instead of `nums[left]`). Will revisit after LC 153 and LC 33. |
+| Find Peak Element (LC 162) | Binary search with `left < right` and `right = mid` | ✅ | O(log n) time, O(1) space |
+| Find Minimum in Rotated Sorted Array (LC 153) | Binary search comparing `mid` with `right` | ✅ | O(log n) time; handles rotation gracefully |
+| Search in Rotated Sorted Array (LC 33) | Find pivot then binary search, or single‑pass modified binary search | ✅ | O(log n) time, classic rotated array search |
 
 ### Redos (from earlier failed attempts)
 - Valid Palindrome (LC 125) – O(1) space two pointers
@@ -64,14 +65,14 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 
 ## Progress
 - Start date: April 12, 2026
-- LeetCode problems solved: 19 (will update daily)
+- LeetCode problems solved: 21 (will update daily)
 
 ## Redo List (problems to revisit)
 - [x] 3Sum (solved early on Apr 16) ✅
 - [x] Container With Most Water (solved early on Apr 19) ✅
 - [x] Min Stack (solved early on Apr 19) ✅ – two‑stack O(1) time, O(n) space; single‑stack trade‑off understood
-- [ ] Find Minimum in Rotated Sorted Array (scheduled May 16) → **now prioritized for Apr 23**
-- [ ] Search in Rotated Sorted Array (LC 33) → **add to redo, scheduled Apr 23**
+- [x] Find Minimum in Rotated Sorted Array (scheduled May 16) → **now prioritized for Apr 23**
+- [x] Search in Rotated Sorted Array (LC 33) → **add to redo, scheduled Apr 23**
 - [ ] Search in Rotated Sorted Array II (LC 81) → **add to redo, scheduled Apr 24**
 - [ ] Copy List with Random Pointer (scheduled May 26)
 - [ ] Merge k Sorted Lists (scheduled May 27)
