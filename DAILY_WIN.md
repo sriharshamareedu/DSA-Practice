@@ -79,9 +79,16 @@
 - ✅ **Discipline Win:** Stopped at 7:49 PM despite frustration; prioritised rest and overnight consolidation
 - ✅ Updated README with Binary Search section and redo list
 - ✅ Total problems solved now: 19
-- **Sleep:** *(will log tomorrow)*
+- **Sleep:** 6-6.5 hours (steady, aiming for 7)
 
-## Summary (Apr 13–22)
+## April 23, 2026 (Thursday)
+- ✅ Solved Find Minimum in Rotated Sorted Array (LC 153) – binary search with right‑mid comparison
+- ✅ Solved Search in Rotated Sorted Array (LC 33) – classic rotated array binary search
+- ✅ Updated README, spreadsheet, redo list
+- ✅ Total problems solved now: 21
+- **Sleep:** (add your actual hours later)
+
+## Summary (Apr 13–23)
 | Topic | Problems Solved |
 |-------|----------------|
 | Arrays | 4 |
@@ -89,10 +96,10 @@
 | Two Pointers | 4 |
 | Stack | 1 |
 | Strings | 4 |
-| Binary Search | 1 |
+| Binary Search | 3 |
 | Redos (counted separately) | 2 |
-| **Total** | **19 problems** |
+| **Total** | **21 problems** |
 
 **Status:** Week 5 (Binary Search) started on April 22 – slightly ahead of schedule.  
-**Next:** Solve LC 153 (Find Minimum in Rotated Sorted Array), then LC 33, then revisit LC 81.  
+**Next:** Revisit LC 81.  
 **Sleep goal:** Maintain 7+ hours – in bed by 10:00 PM, no screens after 9:30 PM.
