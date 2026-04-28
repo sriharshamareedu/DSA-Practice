@@ -86,9 +86,15 @@
 - ✅ Solved Search in Rotated Sorted Array (LC 33) – classic rotated array binary search
 - ✅ Updated README, spreadsheet, redo list
 - ✅ Total problems solved now: 21
-- **Sleep:** (add your actual hours later)
+- **Sleep:** 6-6.5 hours (steady, aiming for 7)
 
-## Summary (Apr 13–23)
+## April 28, 2026 (Tuesday)
+- ✅ Solved Search in Rotated Sorted Array II (LC 81) – handled duplicates, O(log n) average, O(n) worst
+- ✅ Updated README, spreadsheet, daily win
+- ⚠️ Slept only 5 hours – need to prioritise sleep tonight
+- ✅ Total problems solved now: 22 
+
+## Summary (Apr 13–28)
 | Topic | Problems Solved |
 |-------|----------------|
 | Arrays | 4 |
@@ -96,7 +102,7 @@
 | Two Pointers | 4 |
 | Stack | 1 |
 | Strings | 4 |
-| Binary Search | 3 |
+| Binary Search | 4 |
 | Redos (counted separately) | 2 |
 | **Total** | **21 problems** |
 
