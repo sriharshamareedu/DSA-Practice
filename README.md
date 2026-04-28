@@ -45,12 +45,13 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 | Count and Say (LC 38) | Iterative string building | ✅ | O(2ⁿ) time worst? but O(n) with StringBuilder |
 | Compare Version Numbers (LC 165) | Split by dots, parse integers, handle different lengths | ✅ | O(n+m) time, O(1) extra space |
 
-### Binary Search (Week 5 – April 22/23, 2026)
+### Binary Search (Week 5 – April 22,23,28 2026)
 | Problem | Solution | Optimal? | Notes |
 |---------|----------|----------|-------|
 | Find Peak Element (LC 162) | Binary search with `left < right` and `right = mid` | ✅ | O(log n) time, O(1) space |
 | Find Minimum in Rotated Sorted Array (LC 153) | Binary search comparing `mid` with `right` | ✅ | O(log n) time; handles rotation gracefully |
 | Search in Rotated Sorted Array (LC 33) | Find pivot then binary search, or single‑pass modified binary search | ✅ | O(log n) time, classic rotated array search |
+| Search in Rotated Sorted Array II (LC 81) | Binary search with duplicate handling | ✅ | O(log n) average, O(n) worst case (duplicates) |
 
 ### Redos (from earlier failed attempts)
 - Valid Palindrome (LC 125) – O(1) space two pointers
@@ -65,7 +66,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 
 ## Progress
 - Start date: April 12, 2026
-- LeetCode problems solved: 21 (will update daily)
+- LeetCode problems solved: 22 (will update daily)
 
 ## Redo List (problems to revisit)
 - [x] 3Sum (solved early on Apr 16) ✅
