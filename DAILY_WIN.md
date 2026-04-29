@@ -92,9 +92,15 @@
 - ✅ Solved Search in Rotated Sorted Array II (LC 81) – handled duplicates, O(log n) average, O(n) worst
 - ✅ Updated README, spreadsheet, daily win
 - ⚠️ Slept only 5 hours – need to prioritise sleep tonight
-- ✅ Total problems solved now: 22 
+- ✅ Total problems solved now: 22
 
-## Summary (Apr 13–28)
+## April 29, 2026 (Wednesday)
+- ✅ Slept 7.5 hours – well rested
+- ✅ Solved Palindrome Linked List (LC 234) – find middle, reverse, compare
+- ✅ Updated README and spreadsheet
+- **Total problems solved now:** 23
+
+## Summary (Apr 13–29)
 | Topic | Problems Solved |
 |-------|----------------|
 | Arrays | 4 |
@@ -103,6 +109,7 @@
 | Stack | 1 |
 | Strings | 4 |
 | Binary Search | 4 |
+| Linked List Basics | 1 |
 | Redos (counted separately) | 2 |
 | **Total** | **21 problems** |
 
