@@ -100,7 +100,14 @@
 - ✅ Updated README and spreadsheet
 - **Total problems solved now:** 23
 
-## Summary (Apr 13–29)
+  ## April 30, 2026 (Thursday)
+- ✅ Slept 6.5 hours
+- ✅ Solved Intersection of Two Linked Lists (LC 160)
+- ✅ Solved Remove Duplicates from Sorted List (LC 83)
+- ✅ Updated README, spreadsheet, daily win
+- **Total problems solved now:** 25
+
+## Summary (Apr 13–30)
 | Topic | Problems Solved |
 |-------|----------------|
 | Arrays | 4 |
@@ -109,7 +116,7 @@
 | Stack | 1 |
 | Strings | 4 |
 | Binary Search | 4 |
-| Linked List Basics | 1 |
+| Linked List Basics | 3 |
 | Redos (counted separately) | 2 |
 | **Total** | **21 problems** |
 
