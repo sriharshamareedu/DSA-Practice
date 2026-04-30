@@ -53,10 +53,12 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 | Search in Rotated Sorted Array (LC 33) | Find pivot then binary search, or single‑pass modified binary search | ✅ | O(log n) time, classic rotated array search |
 | Search in Rotated Sorted Array II (LC 81) | Binary search with duplicate handling | ✅ | O(log n) average, O(n) worst case (duplicates) |
 
-### Linked List Basics (Week 6 – April 29,2026)
+### Linked List Basics (Week 6 – April 29,30 2026)
 | Problem | Solution | Optimal? | Notes |
 |---------|----------|----------|-------|
 | Palindrome Linked List (LC 234) | Find middle, reverse second half, compare | ✅ | O(n) time, O(1) space |
+| Intersection of Two Linked Lists (LC 160) | Two pointers – reset to head after reaching end | ✅ | O(m+n) time, O(1) space |
+| Remove Duplicates from Sorted List (LC 83) | Single pass – skip duplicates | ✅ | O(n) time, O(1) space |
 
 ### Redos (from earlier failed attempts)
 - Valid Palindrome (LC 125) – O(1) space two pointers
@@ -71,7 +73,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 
 ## Progress
 - Start date: April 12, 2026
-- LeetCode problems solved: 23 (will update daily)
+- LeetCode problems solved: 25 (will update daily)
 
 ## Redo List (problems to revisit)
 - [x] 3Sum (solved early on Apr 16) ✅
