@@ -131,5 +131,5 @@
 | **Total new problems** | **26** |
 
 **Status:** Week 6 (Linked List Basics) completed on May 1 – more than 2 weeks ahead of schedule.  
-**Next:** Re‑attempt Copy List with Random Pointer (LC 138); then move to Week 7 (Linked List Advanced).  
+**Next:** Study LC 138 solution, then move to Week 7 (Linked List Advanced). Reattempt LC 138 on original redo date (May 26). 
 **Sleep goal:** Maintain 7+ hours – in bed by 10:00 PM, no screens after 9:30 PM.
