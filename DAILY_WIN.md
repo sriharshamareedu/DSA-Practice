@@ -100,14 +100,24 @@
 - ✅ Updated README and spreadsheet
 - **Total problems solved now:** 23
 
-  ## April 30, 2026 (Thursday)
+## April 30, 2026 (Thursday)
 - ✅ Slept 6.5 hours
 - ✅ Solved Intersection of Two Linked Lists (LC 160)
 - ✅ Solved Remove Duplicates from Sorted List (LC 83)
 - ✅ Updated README, spreadsheet, daily win
 - **Total problems solved now:** 25
 
-## Summary (Apr 13–30)
+## May 1, 2026 (Friday) – Holiday
+- ✅ Slept 7 hours
+- ✅ Solved Linked List Cycle II (LC 142) – Floyd's algorithm
+- ❌ Attempted Copy List with Random Pointer (LC 138) – could not solve on my own; need to review and retry later
+- ✅ Updated records
+- **Total problems solved now:** 26
+
+---
+
+## Summary (Apr 13 – May 1)
+
 | Topic | Problems Solved |
 |-------|----------------|
 | Arrays | 4 |
@@ -115,11 +125,11 @@
 | Two Pointers | 4 |
 | Stack | 1 |
 | Strings | 4 |
-| Binary Search | 4 |
-| Linked List Basics | 3 |
-| Redos (counted separately) | 2 |
-| **Total** | **21 problems** |
+| Binary Search | 4 (LC 162, 153, 33, 81) |
+| Linked List Basics | 4 (LC 234, 160, 83, 142) |
+| Redos (counted separately) | 2 (Valid Palindrome, Longest Common Prefix) |
+| **Total new problems** | **26** |
 
-**Status:** Week 5 (Binary Search) started on April 22 – slightly ahead of schedule.  
-**Next:** Revisit LC 81.  
+**Status:** Week 6 (Linked List Basics) completed on May 1 – more than 2 weeks ahead of schedule.  
+**Next:** Re‑attempt Copy List with Random Pointer (LC 138); then move to Week 7 (Linked List Advanced).  
 **Sleep goal:** Maintain 7+ hours – in bed by 10:00 PM, no screens after 9:30 PM.
