@@ -59,6 +59,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 | Palindrome Linked List (LC 234) | Find middle, reverse second half, compare | ✅ | O(n) time, O(1) space |
 | Intersection of Two Linked Lists (LC 160) | Two pointers – reset to head after reaching end | ✅ | O(m+n) time, O(1) space |
 | Remove Duplicates from Sorted List (LC 83) | Single pass – skip duplicates | ✅ | O(n) time, O(1) space |
+| Linked List Cycle II (LC 142) | Floyd's cycle detection – find cycle start | ✅ | O(n) time, O(1) space |
 
 ### Redos (from earlier failed attempts)
 - Valid Palindrome (LC 125) – O(1) space two pointers
@@ -73,7 +74,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 
 ## Progress
 - Start date: April 12, 2026
-- LeetCode problems solved: 25 (will update daily)
+- LeetCode problems solved: 26 (will update daily)
 
 ## Redo List (problems to revisit)
 - [x] 3Sum (solved early on Apr 16) ✅
