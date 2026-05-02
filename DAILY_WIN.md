@@ -100,7 +100,33 @@
 - ✅ Updated README and spreadsheet
 - **Total problems solved now:** 23
 
-## Summary (Apr 13–29)
+## April 30, 2026 (Thursday)
+- ✅ Slept 6.5 hours
+- ✅ Solved Intersection of Two Linked Lists (LC 160)
+- ✅ Solved Remove Duplicates from Sorted List (LC 83)
+- ✅ Updated README, spreadsheet, daily win
+- **Total problems solved now:** 25
+
+## May 1, 2026 (Friday) – Holiday
+- ✅ Slept 7 hours
+- ✅ Solved Linked List Cycle II (LC 142) – Floyd's algorithm
+- ❌ Attempted Copy List with Random Pointer (LC 138) – could not solve on my own; need to review and retry later
+- ✅ Updated records
+- **Total problems solved now:** 26
+
+  ## May 2, 2026 (Saturday)
+- ✅ Slept 7.5 hours – well rested
+- ✅ Studied Copy List with Random Pointer (LC 138) – learned HashMap and interleaving methods
+- ✅ Solved Rotate List (LC 61) – linked list rotation
+- ✅ Solved Partition List (LC 86) – partition around value x
+- ✅ Solved Odd Even Linked List (LC 328) – group odd and even indices
+- ✅ Updated README, spreadsheet, daily win
+- **Total problems solved now:** 29
+
+---
+
+## Summary (Apr 13 – May 2)
+
 | Topic | Problems Solved |
 |-------|----------------|
 | Arrays | 4 |
@@ -108,11 +134,12 @@
 | Two Pointers | 4 |
 | Stack | 1 |
 | Strings | 4 |
-| Binary Search | 4 |
-| Linked List Basics | 1 |
-| Redos (counted separately) | 2 |
-| **Total** | **21 problems** |
+| Binary Search | 4 (LC 162, 153, 33, 81) |
+| Linked List Basics | 4 (LC 234, 160, 83, 142) |
+| Linked List Advanced | 3 (LC 61, LC 86, LC 328) |
+| Redos (counted separately) | 2 (Valid Palindrome, Longest Common Prefix) |
+| **Total new problems** | **26** |
 
-**Status:** Week 5 (Binary Search) started on April 22 – slightly ahead of schedule.  
-**Next:** Revisit LC 81.  
+**Status:** Week 6 (Linked List Basics) completed on May 1 – more than 2 weeks ahead of schedule.  
+**Next:** Study LC 138 solution, then move to Week 7 (Linked List Advanced). Reattempt LC 138 on original redo date (May 26). 
 **Sleep goal:** Maintain 7+ hours – in bed by 10:00 PM, no screens after 9:30 PM.
