@@ -61,6 +61,13 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 | Remove Duplicates from Sorted List (LC 83) | Single pass – skip duplicates | ✅ | O(n) time, O(1) space |
 | Linked List Cycle II (LC 142) | Floyd's cycle detection – find cycle start | ✅ | O(n) time, O(1) space |
 
+### Linked List Advanced (Week 7 – May 2, 2026)
+| Problem | Solution | Optimal? | Notes |
+|---------|----------|----------|-------|
+| Rotate List (LC 61) | Find new head after k rotations | ✅ | O(n) time, O(1) space |
+| Partition List (LC 86) | Two pointers (less than x and greater/equal) | ✅ | O(n) time, O(1) space |
+| Odd Even Linked List (LC 328) | Separate odd and even indices | ✅ | O(n) time, O(1) space |
+
 ### Redos (from earlier failed attempts)
 - Valid Palindrome (LC 125) – O(1) space two pointers
 - Longest Common Prefix (LC 14) – horizontal scanning
@@ -74,7 +81,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 
 ## Progress
 - Start date: April 12, 2026
-- LeetCode problems solved: 26 (will update daily)
+- LeetCode problems solved: 29 (will update daily)
 
 ## Redo List (problems to revisit)
 - [x] 3Sum (solved early on Apr 16) ✅
