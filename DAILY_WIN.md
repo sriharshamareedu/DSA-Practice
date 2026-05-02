@@ -114,9 +114,18 @@
 - ✅ Updated records
 - **Total problems solved now:** 26
 
+  ## May 2, 2026 (Saturday)
+- ✅ Slept 7.5 hours – well rested
+- ✅ Studied Copy List with Random Pointer (LC 138) – learned HashMap and interleaving methods
+- ✅ Solved Rotate List (LC 61) – linked list rotation
+- ✅ Solved Partition List (LC 86) – partition around value x
+- ✅ Solved Odd Even Linked List (LC 328) – group odd and even indices
+- ✅ Updated README, spreadsheet, daily win
+- **Total problems solved now:** 29
+
 ---
 
-## Summary (Apr 13 – May 1)
+## Summary (Apr 13 – May 2)
 
 | Topic | Problems Solved |
 |-------|----------------|
@@ -127,6 +136,7 @@
 | Strings | 4 |
 | Binary Search | 4 (LC 162, 153, 33, 81) |
 | Linked List Basics | 4 (LC 234, 160, 83, 142) |
+| Linked List Advanced | 3 (LC 61, LC 86, LC 328) |
 | Redos (counted separately) | 2 (Valid Palindrome, Longest Common Prefix) |
 | **Total new problems** | **26** |
 
