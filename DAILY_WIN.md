@@ -126,7 +126,6 @@
   ## May 3, 2026 (Sunday)
 - ✅ Slept 6.5 hours
 - ✅ Solved Swap Nodes in Pairs (LC 24) – completed Week 7 (Linked List Advanced)
-- ✅ [Optional] Re‑attempted Copy List with Random Pointer (LC 138) – [success/fail]
 - ✅ Updated README and spreadsheet
 - **Total problems solved now:** 30
 
