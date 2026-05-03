@@ -123,9 +123,16 @@
 - ✅ Updated README, spreadsheet, daily win
 - **Total problems solved now:** 29
 
+  ## May 3, 2026 (Sunday)
+- ✅ Slept 6.5 hours
+- ✅ Solved Swap Nodes in Pairs (LC 24) – completed Week 7 (Linked List Advanced)
+- ✅ [Optional] Re‑attempted Copy List with Random Pointer (LC 138) – [success/fail]
+- ✅ Updated README and spreadsheet
+- **Total problems solved now:** 30
+
 ---
 
-## Summary (Apr 13 – May 2)
+## Summary (Apr 13 – May 3)
 
 | Topic | Problems Solved |
 |-------|----------------|
@@ -136,7 +143,7 @@
 | Strings | 4 |
 | Binary Search | 4 (LC 162, 153, 33, 81) |
 | Linked List Basics | 4 (LC 234, 160, 83, 142) |
-| Linked List Advanced | 3 (LC 61, LC 86, LC 328) |
+| Linked List Advanced | 4 (LC 61, LC 86, LC 328, LC 24) |
 | Redos (counted separately) | 2 (Valid Palindrome, Longest Common Prefix) |
 | **Total new problems** | **26** |
 
