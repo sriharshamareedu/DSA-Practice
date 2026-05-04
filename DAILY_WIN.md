@@ -129,9 +129,16 @@
 - ✅ Updated README and spreadsheet
 - **Total problems solved now:** 30
 
+## May 4, 2026 (Monday)
+- ⚠️ Slept only 4 hours – need to prioritise sleep tonight
+- ✅ Solved Decode String (LC 394) – learned stack‑based decoding, handled nested patterns
+- ✅ Implemented both single‑stack and two‑stack approaches
+- ✅ Updated README and spreadsheet
+- **Total problems solved now:** 31
+
 ---
 
-## Summary (Apr 13 – May 3)
+## Summary (Apr 13 – May 4)
 
 | Topic | Problems Solved |
 |-------|----------------|
@@ -143,9 +150,10 @@
 | Binary Search | 4 (LC 162, 153, 33, 81) |
 | Linked List Basics | 4 (LC 234, 160, 83, 142) |
 | Linked List Advanced | 4 (LC 61, LC 86, LC 328, LC 24) |
+| Stack & Queue | 1 (LC 394) |
 | Redos (counted separately) | 2 (Valid Palindrome, Longest Common Prefix) |
-| **Total new problems** | **26** |
+| **Total new problems** | **29* |
 
-**Status:** Week 6 (Linked List Basics) completed on May 1 – more than 2 weeks ahead of schedule.  
-**Next:** Study LC 138 solution, then move to Week 7 (Linked List Advanced). Reattempt LC 138 on original redo date (May 26). 
+**Status:** Week 7 (Linked List Basics) completed on May 3 – more than 3 weeks ahead of schedule.  
+**Next:** Solve Simplify Path (LC 71)
 **Sleep goal:** Maintain 7+ hours – in bed by 10:00 PM, no screens after 9:30 PM.
