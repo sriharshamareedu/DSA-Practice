@@ -69,6 +69,11 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 | Odd Even Linked List (LC 328) | Separate odd and even indices | ✅ | O(n) time, O(1) space |
 | Swap Nodes in Pairs (LC 24) | Swap every two adjacent nodes | ✅ | O(n) time, O(1) space |
 
+### Stack & Queue (Week 8 – May 4, 2026)
+| Problem | Solution | Optimal? | Notes |
+|---------|----------|----------|-------|
+| Decode String (LC 394) | Single stack (or two stacks) | ✅ | O(n) time, O(n) space. Handles nested encoding. |
+
 ### Redos (from earlier failed attempts)
 - Valid Palindrome (LC 125) – O(1) space two pointers
 - Longest Common Prefix (LC 14) – horizontal scanning
@@ -82,7 +87,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 
 ## Progress
 - Start date: April 12, 2026
-- LeetCode problems solved: 30 (will update daily)
+- LeetCode problems solved: 31 (will update daily)
 
 ## Redo List (problems to revisit)
 - [x] 3Sum (solved early on Apr 16) ✅
