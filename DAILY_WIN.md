@@ -136,9 +136,16 @@
 - ✅ Updated README and spreadsheet
 - **Total problems solved now:** 31
 
+## May 5, 2026 (Tuesday)
+- ✅ Slept only 5.5 hours - need to priortize sleep tonight
+- ✅ Solved Remove All Adjacent Duplicates In String (LC 1047) – on my own, used Deque
+- ⚠️ Solved Simplify Path (LC 71) – needed help: split('/') idea didn't occur; had confusion with dots
+- ✅ Learned: path canonicalization pattern – split, stack, skip `.`, go back on `..`
+- ✅ Updated README, spreadsheet, daily win
+- **Total problems solved now:** 33
 ---
 
-## Summary (Apr 13 – May 4)
+## Summary (Apr 13 – May 5)
 
 | Topic | Problems Solved |
 |-------|----------------|
@@ -150,7 +157,7 @@
 | Binary Search | 4 (LC 162, 153, 33, 81) |
 | Linked List Basics | 4 (LC 234, 160, 83, 142) |
 | Linked List Advanced | 4 (LC 61, LC 86, LC 328, LC 24) |
-| Stack & Queue | 1 (LC 394) |
+| Stack & Queue | 3 (LC 394, LC 71, LC 1047) |
 | Redos (counted separately) | 2 (Valid Palindrome, Longest Common Prefix) |
 | **Total new problems** | **29* |
 
