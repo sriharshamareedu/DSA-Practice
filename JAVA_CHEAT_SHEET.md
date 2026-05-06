@@ -83,6 +83,8 @@ Map<String, Integer> map = new HashMap<>();
 map.put("key", 10);                               // insert
 int val = map.getOrDefault("key", 0);            // get with default
 boolean hasKey = map.containsKey("key");         // check existence
+map.remove("key");                     // removes key-value pair
+map.clear()                     // clear
 ```
 
 ## 8. Character Checks
