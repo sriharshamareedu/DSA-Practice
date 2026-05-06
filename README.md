@@ -112,8 +112,19 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 - [ ] Design Circular Queue (scheduled Aug 27)
 
 ## Projects
-- [ ] URL Shortener (June 7–13)
-- [ ] Task Manager API (July 5–11)
+
+### URL Shortener
+- [x] Core logic (Base-62 encoding) – completed May 6, 2026
+- [ ] Spring Boot REST API (in progress)
+- [ ] Database integration
+- [ ] Deployment
+
+Original schedule: June 7–13 (started early)
+
+### Task Manager API (July 5–11)
+- [ ] Planning
+- [ ] Implementation
+- [ ] Testing & deployment
 
 ## How to use this repo
 Each solved problem is saved under its topic folder with date and complexity notes.  
