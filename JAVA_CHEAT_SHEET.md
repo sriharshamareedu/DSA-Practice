@@ -41,6 +41,7 @@ stack.push(10);           // push
 int top = stack.pop();    // pop
 int peek = stack.peek();  // peek
 boolean empty = stack.isEmpty();
+```
 
 ## 5. Queue (Deque)
 
@@ -50,6 +51,7 @@ queue.offer(10);          // add to end
 int front = queue.poll(); // remove from front
 int peek = queue.peek();  // view front
 boolean empty = queue.isEmpty();
+```
 
 ## 6. HashMap
 
@@ -58,6 +60,7 @@ Map<String, Integer> map = new HashMap<>();
 map.put("key", 10);                               // insert
 int val = map.getOrDefault("key", 0);            // get with default
 boolean hasKey = map.containsKey("key");         // check existence
+```
 
 ## 7. Character Checks
 
@@ -65,6 +68,7 @@ boolean hasKey = map.containsKey("key");         // check existence
 Character.isDigit(c)        // is digit? (0-9)
 Character.isLetter(c)       // is letter? (a-z, A-Z)
 c >= '0' && c <= '9'        // manual digit check (faster)
+```
 
 ## 8. Loops
 
@@ -77,13 +81,14 @@ for (int num : arr) { }
 
 // While
 while (condition) { }
+```
 
 ## 9. Common Mistakes
 
-❌ Wrong	✅ Correct
-s1 == s2	s1.equals(s2)
-s.length	s.length()
-arr.length()	arr.length
-Stack<Integer> s = new Stack<>()	Deque<Integer> s = new ArrayDeque<>()
-Integer.parseInt(s.charAt(i))	s.charAt(i) - '0'
+| Wrong |	Correct |
+|-------|---------|
+| `s1 == s2` | `s1.equals(s2)` |
+| `s.length` |	`s.length()` |
+| `arr.length()` |	`arr.length` |
+| `Integer.parseInt(s.charAt(i))` |	`s.charAt(i) - '0'` |
 
