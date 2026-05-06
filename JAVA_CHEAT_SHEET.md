@@ -53,7 +53,34 @@ int peek = queue.peek();  // view front
 boolean empty = queue.isEmpty();
 ```
 
-## 6. HashMap
+## 6. Deque (all methods)
+
+```java
+Deque<Integer> dq = new ArrayDeque<>();
+
+// Add
+dq.addFirst(10);          // add to front (throws exception)
+dq.addLast(20);           // add to end (throws exception)
+dq.offerFirst(30);        // add to front (returns false if full)
+dq.offerLast(40);         // add to end (returns false if full)
+
+// Remove
+int first = dq.removeFirst();  // remove front (throws exception)
+int last = dq.removeLast();    // remove end (throws exception)
+int pollFirst = dq.pollFirst(); // remove front (null if empty)
+int pollLast = dq.pollLast();   // remove end (null if empty)
+
+// View
+int peekFirst = dq.peekFirst(); // view front (null if empty)
+int peekLast = dq.peekLast();   // view end (null if empty)
+
+// Others
+int size = dq.size();
+boolean empty = dq.isEmpty();
+dq.clear();
+```
+
+## 7. HashMap
 
 ```java
 Map<String, Integer> map = new HashMap<>();
@@ -62,7 +89,7 @@ int val = map.getOrDefault("key", 0);            // get with default
 boolean hasKey = map.containsKey("key");         // check existence
 ```
 
-## 7. Character Checks
+## 8. Character Checks
 
 ```java
 Character.isDigit(c)        // is digit? (0-9)
@@ -70,7 +97,7 @@ Character.isLetter(c)       // is letter? (a-z, A-Z)
 c >= '0' && c <= '9'        // manual digit check (faster)
 ```
 
-## 8. Loops
+## 9. Loops
 
 ```java
 // Index loop
@@ -83,7 +110,7 @@ for (int num : arr) { }
 while (condition) { }
 ```
 
-## 9. Common Mistakes
+## 10. Common Mistakes
 
 | Wrong |	Correct |
 |-------|---------|
