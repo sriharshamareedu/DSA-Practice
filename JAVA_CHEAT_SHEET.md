@@ -92,3 +92,8 @@ while (condition) { }
 | `arr.length()` |	`arr.length` |
 | `Integer.parseInt(s.charAt(i))` |	`s.charAt(i) - '0'` |
 
+## What was fixed?
+
+1. Added **closing backticks** (```` ``` ````) after each code block (sections 4–8).
+2. Fixed the **Common Mistakes table** – now has proper markdown table format with pipes `|` and dashes.
+
