@@ -59,14 +59,10 @@ boolean empty = queue.isEmpty();
 Deque<Integer> dq = new ArrayDeque<>();
 
 // Add
-dq.addFirst(10);          // add to front (throws exception)
-dq.addLast(20);           // add to end (throws exception)
 dq.offerFirst(30);        // add to front (returns false if full)
 dq.offerLast(40);         // add to end (returns false if full)
 
 // Remove
-int first = dq.removeFirst();  // remove front (throws exception)
-int last = dq.removeLast();    // remove end (throws exception)
 int pollFirst = dq.pollFirst(); // remove front (null if empty)
 int pollLast = dq.pollLast();   // remove end (null if empty)
 
