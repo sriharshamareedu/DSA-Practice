@@ -145,6 +145,13 @@
 - **Total problems solved now:** 33
 ---
 
+## May 6, 2026 (Wednesday)
+- ✅ Created Java cheat sheet (`JAVA_CHEAT_SHEET.md`) – common syntax for DSA
+- ✅ Installed/confirmed JDK on new laptop (OpenJDK 25)
+- ✅ Added URL Shortener core logic (Base-62 encoding) to repo
+- ✅ Updated README with project tracking
+- **Sleep:** (add your hours tomorrow morning)
+
 ## Summary (Apr 13 – May 5)
 
 | Topic | Problems Solved |
@@ -161,6 +168,6 @@
 | Redos (counted separately) | 2 (Valid Palindrome, Longest Common Prefix) |
 | **Total new problems** | **29* |
 
-**Status:** Week 7 (Linked List Basics) completed on May 3 – more than 3 weeks ahead of schedule.  
-**Next:** Solve Simplify Path (LC 71)
+**Status:** Week 8 (Stack & Queue) completed on May 5 – more than 4 weeks ahead of schedule.  
+**Next:** Complete URL Shortener project (core logic done), then move to Week 10 (Trees - Traversals).  
 **Sleep goal:** Maintain 7+ hours – in bed by 10:00 PM, no screens after 9:30 PM.
