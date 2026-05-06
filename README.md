@@ -69,10 +69,12 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 | Odd Even Linked List (LC 328) | Separate odd and even indices | ✅ | O(n) time, O(1) space |
 | Swap Nodes in Pairs (LC 24) | Swap every two adjacent nodes | ✅ | O(n) time, O(1) space |
 
-### Stack & Queue (Week 8 – May 4, 2026)
+### Stack & Queue (Week 8 – May 4,5 2026)
 | Problem | Solution | Optimal? | Notes |
 |---------|----------|----------|-------|
 | Decode String (LC 394) | Single stack (or two stacks) | ✅ | O(n) time, O(n) space. Handles nested encoding. |
+| Simplify Path (LC 71) | Split by '/', use stack for directories | ✅ | O(n) time, O(n) space. Did not come up with split idea on my own. Studied solution. |
+| Remove All Adjacent Duplicates In String (LC 1047) | Deque (ArrayDeque) as stack | ✅ | O(n) time, O(n) space. Solved independently. |
 
 ### Redos (from earlier failed attempts)
 - Valid Palindrome (LC 125) – O(1) space two pointers
@@ -87,7 +89,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 
 ## Progress
 - Start date: April 12, 2026
-- LeetCode problems solved: 31 (will update daily)
+- LeetCode problems solved: 33 (will update daily)
 
 ## Redo List (problems to revisit)
 - [x] 3Sum (solved early on Apr 16) ✅
