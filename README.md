@@ -111,19 +111,30 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 - [ ] Minimum Remove to Make Valid Parentheses (scheduled Aug 26)
 - [ ] Design Circular Queue (scheduled Aug 27)
 
-## Projects
+### Projects
 
-### URL Shortener
+#### URL Shortener
 - [x] Core logic (Base-62 encoding) – completed May 6, 2026
-- [ ] Spring Boot REST API (in progress)
-- [ ] Database integration
-- [ ] Deployment
+- [x] Spring Boot REST API – completed May 7, 2026
+- [x] Local testing with curl/PowerShell – completed May 7, 2026
+- [x] Browser redirect verification – completed May 7, 2026
+- [ ] Database integration (H2/PostgreSQL)
+- [ ] Custom short codes feature
+- [ ] Click analytics
+- [ ] Deployment (Railway/Heroku)
 
-Original schedule: June 7–13 (started early)
+**API Endpoints Implemented:**
+- `POST /shorten` – Creates short URL from long URL
+- `GET /{shortCode}` – Redirects to original URL
+
+**Tech Stack:** Spring Boot 4.0.6, Java 25, Maven, Base62 encoding
+
+Original schedule: June 7–13 (completed 1 month ahead of schedule ✅)
 
 ### Task Manager API (July 5–11)
 - [ ] Planning
 - [ ] Implementation
+- [ ] Testing & deployment
 - [ ] Testing & deployment
 
 ## How to use this repo
