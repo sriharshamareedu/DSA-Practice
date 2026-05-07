@@ -137,7 +137,7 @@
 - **Total problems solved now:** 31
 
 ## May 5, 2026 (Tuesday)
-- ✅ Slept only 5.5 hours - need to priortize sleep tonight
+- ⚠️ Slept only 5.5 hours - need to priortize sleep tonight
 - ✅ Solved Remove All Adjacent Duplicates In String (LC 1047) – on my own, used Deque
 - ⚠️ Solved Simplify Path (LC 71) – needed help: split('/') idea didn't occur; had confusion with dots
 - ✅ Learned: path canonicalization pattern – split, stack, skip `.`, go back on `..`
@@ -150,7 +150,39 @@
 - ✅ Installed/confirmed JDK on new laptop (OpenJDK 25)
 - ✅ Added URL Shortener core logic (Base-62 encoding) to repo
 - ✅ Updated README with project tracking
-- **Sleep:** (add your hours tomorrow morning)
+- ⚠️ Slept only 5.5 hours - need to priortize sleep tonight
+
+## May 7, 2026 (Thursday)
+- ✅ Slept 6.5 hours
+- ✅ Completed URL Shortener Spring Boot REST API
+- ✅ Fixed critical bug: shortCode vs full URL mismatch in controller/service layers
+- ✅ Implemented Base62 encoding for short code generation
+- ✅ Tested API thoroughly:
+  - POST `/shorten` – successfully creates short URLs
+  - GET `/{shortCode}` – successfully redirects to original URLs
+  - Browser testing – verified redirect to google.com works
+- ✅ Debugged NullPointerException – root cause: passing full URL instead of shortCode
+- ✅ Updated README with project completion status
+- ✅ Created comprehensive API documentation
+- **Total problems solved now:** 33 (no new DSA today – focused on project)
+
+### Key Learnings from URL Shortener Project:
+1. **Controller-Service separation** – Keep responsibilities clear
+2. **URL format consistency** – Don't mix `http://localhost:8080` with `https://short.link`
+3. **Null safety** – Always check for null before using values
+4. **Spring Boot annotations** – `@RestController`, `@PostMapping`, `@GetMapping`, `@PathVariable`
+5. **Testing methodology** – Use separate terminal for testing while app runs
+
+### Testing Commands Used:
+```powershell
+# Create short URL
+Invoke-RestMethod -Uri "http://localhost:8080/shorten" -Method POST -Body "https://www.google.com" -ContentType "text/plain"
+
+# Output: {"shortUrl":"http://localhost:8080/15FTGg"}
+
+# Test redirect (in browser)
+http://localhost:8080/15FTGg  # ✅ Redirects to google.com
+```
 
 ## Summary (Apr 13 – May 5)
 
