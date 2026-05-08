@@ -166,6 +166,32 @@
 - ✅ Created comprehensive API documentation
 - **Total problems solved now:** 33 (no new DSA today – focused on project)
 
+## May 8, 2026 (Friday)
+- ✅ Slept 6 hours
+- ✅ Day 3 of URL Shortener project – Spring Boot web layer
+- ✅ Added HTML frontend (`index.html`) in `static/` folder
+- ✅ Created `UrlValidator.java` service (URL format checking)
+- ✅ Attempted to integrate frontend with backend API
+- ⚠️ **Stuck on:** Browser `http://localhost:8080` gave "site can’t be reached" because `/{shortCode}` was consuming `/index.html` request
+- ✅ **Debugging win:** Identified root cause – wildcard `@GetMapping("/{shortCode}")` intercepts all single‑segment paths including static assets
+- ✅ Proposed fix: change redirect endpoint to `/short/{shortCode}` (prefix pattern)
+- ⏸️ Stopped for the day – will apply fix tomorrow morning
+- 📝 **Learned:** Spring MVC maps controller methods BEFORE static resources. Need to reserve a prefix for short codes (`/s/` or `/short/`).
+- 🎯 **Next step (May 9):** Implement prefix change, test form submission, get full redirect working
+- **Total DSA problems solved:** 33 (no new today – project focused)
+
+### Today’s Debugging Notes
+| Problem | Hypothesis | Test | Conclusion |
+|---------|------------|------|-------------|
+| `http://localhost:8080` unreachable | App not running? | Checked terminal – `Started` message present | App is running |
+| Still unreachable | Port conflict? | `netstat -ano` – no other process on 8080 | Port is free |
+| Log shows “Short code not found: index.html” | `/{shortCode}` is matching `/index.html` | Added `@GetMapping("/")` to serve index explicitly | ✅ **Root cause confirmed** |
+
+**Fix to apply tomorrow:**
+```java
+@GetMapping("/short/{shortCode}")  // instead of @GetMapping("/{shortCode}")
+```
+
 ### Key Learnings from URL Shortener Project:
 1. **Controller-Service separation** – Keep responsibilities clear
 2. **URL format consistency** – Don't mix `http://localhost:8080` with `https://short.link`
