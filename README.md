@@ -118,7 +118,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 - [x] Spring Boot REST API – completed May 7, 2026
 - [x] Local testing with curl/PowerShell – completed May 7, 2026
 - [x] Browser redirect verification – completed May 7, 2026
-- [ ] HTML frontend – in progress (routing fix pending, May 8)
+- [x] HTML frontend – in progress (routing fix pending, May 8)
 - [ ] Database integration (H2/PostgreSQL)
 - [ ] Custom short codes feature
 - [ ] Click analytics
