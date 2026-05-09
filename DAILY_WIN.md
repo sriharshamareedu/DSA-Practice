@@ -210,6 +210,37 @@ Invoke-RestMethod -Uri "http://localhost:8080/shorten" -Method POST -Body "https
 http://localhost:8080/15FTGg  # ✅ Redirects to google.com
 ```
 
+## May 9, 2026 (Saturday)
+
+### Project: URL Shortener – Web Interface Complete
+
+- ✅ Fixed function name typo (`shortUrl` → `shortenUrl`) in HTML button
+- ✅ Applied routing prefix `/short/` to avoid static asset collision
+- ✅ Corrected two HTML typos (`copyToClipboard` spelling, missing anchor tag closing)
+- ✅ Debugged 500 error on redirect – root cause: uninitialized `clickCount`
+- ✅ Added `clickCount.put(shortCode, 0)` in `shortenUrl()` method
+- ✅ **URL Shortener fully working!** – HTML form, redirects, clipboard copy, click tracking all functional
+- ✅ Frontend now communicates with backend REST API seamlessly
+- 🎉 Project milestone reached: complete web interface + REST API
+
+### Testing Results
+
+| Test | Result |
+|------|--------|
+| `http://localhost:8080` loads HTML form | ✅ |
+| Enter URL, click button | ✅ returns short link |
+| Click short link | ✅ redirects with HTTP 302 |
+| Copy to clipboard | ✅ works |
+| Invalid URL (no http://) | ✅ shows error |
+| Unknown short code | ✅ returns 404 |
+| Click count tracking | ✅ increments on each redirect |
+
+**Time spent:** ~2 hours (debugging + fixes)
+
+**Next (Day 4):** Add H2 database persistence so URLs survive app restart
+
+**Sleep:** 7 hours (well rested)
+
 ## Summary (Apr 13 – May 5)
 
 | Topic | Problems Solved |
