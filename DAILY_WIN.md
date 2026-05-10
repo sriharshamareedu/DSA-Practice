@@ -241,6 +241,36 @@ http://localhost:8080/15FTGg  # ✅ Redirects to google.com
 
 **Sleep:** 7 hours (well rested)
 
+## May 10, 2026 (Sunday)
+
+### Project: URL Shortener – Database Persistence & H2 Console
+
+- ✅ Fixed `pom.xml` – replaced `spring-boot-starter-webmvc` with `spring-boot-starter-web`
+- ✅ Added `spring-boot-h2console` starter for web console support
+- ✅ Added `@PostConstruct` counter initialisation using `repository.count()` to avoid duplicate key errors after restarts
+- ✅ Created `H2ConsoleConfig` (later removed in favour of official starter) – console now works at `http://localhost:8080/h2-console`
+- ✅ Verified database table `URL_MAPPINGS` contains all shortened URLs
+- ✅ Observed that the same long URL produces multiple short codes (design choice – acceptable for analytics)
+- ✅ Discussed optional duplicate detection (to be added later if needed)
+- ✅ Updated `UrlMappingRepository` with `findByOriginalUrl` method (prepared for future deduplication)
+
+### Testing Results
+
+| Test | Result |
+|------|--------|
+| Shorten a URL | ✅ returns new short code |
+| Restart app, shorten same URL | ✅ creates another code (different) |
+| H2 console accessible | ✅ at `/h2-console` |
+| Database persists across restarts | ✅ data remains |
+| Redirect works | ✅ HTTP 302 |
+| Click count increments | ✅ logged and stored |
+
+**Time spent:** ~2 hours (debugging H2 console, fixing counter, testing)
+
+**Next (Day 5):** Implement duplicate detection OR URL validator integration
+
+**Sleep:** 6.5 hours
+
 ## Summary (Apr 13 – May 5)
 
 | Topic | Problems Solved |
