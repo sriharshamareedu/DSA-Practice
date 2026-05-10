@@ -118,19 +118,20 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 - [x] Spring Boot REST API – completed May 7, 2026
 - [x] Local testing with curl/PowerShell – completed May 7, 2026
 - [x] Browser redirect verification – completed May 7, 2026
-- [x] HTML frontend – in progress (routing fix pending, May 8)
-- [ ] Database integration (H2/PostgreSQL)
-- [ ] Custom short codes feature
-- [ ] Click analytics
+- [x] HTML frontend – completed May 9, 2026
+- [x] H2 database persistence – completed May 10, 2026
+- [ ] Custom short codes feature (optional)
+- [ ] Click analytics dashboard (optional)
 - [ ] Deployment (Railway/Heroku)
-
-**Known issue (May 8):** The wildcard `@GetMapping("/{shortCode}")` intercepts static assets like `/index.html`. Fix planned: use `/short/{shortCode}` prefix.
 
 **API Endpoints Implemented:**
 - `POST /shorten` – Creates short URL from long URL
-- `GET /{shortCode}` – Redirects to original URL *(to be changed to `/short/{shortCode}` for cleaner static asset handling)*
+- `GET /short/{shortCode}` – Redirects to original URL (prefix ensures static assets like `/index.html` are not intercepted)
 
-**Tech Stack:** Spring Boot 4.0.6, Java 25, Maven, Base62 encoding
+**Tech Stack:** Spring Boot 4.0.6, Java 17, Maven, H2 Database, JPA/Hibernate, Base62 encoding
+
+**Database:** H2 file-based (`./data/urlshortener`).  
+H2 console available at `/h2-console` (JDBC URL: `jdbc:h2:file:./data/urlshortener`, user `sa`, empty password).
 
 Original schedule: June 7–13 (completed 1 month ahead of schedule ✅)
 
