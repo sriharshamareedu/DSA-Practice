@@ -271,6 +271,33 @@ http://localhost:8080/15FTGg  # ✅ Redirects to google.com
 
 **Sleep:** 6.5 hours
 
+## May 11, 2026 (Monday)
+
+### Project: URL Shortener – Duplicate Detection
+
+- ✅ Added `findByOriginalUrl` method in `UrlMappingRepository`
+- ✅ Modified `shortenUrl()` to check for existing URL before creating a new short code
+- ✅ Same long URL now returns the same short code on repeated requests
+- ✅ Tested: shortened `https://www.google.com` twice → identical short code returned both times
+- ✅ Verified in H2 console: only one entry for each unique long URL
+- 🎉 Day 5 complete – duplicate detection implemented
+
+### Testing Results
+
+| Test | Result |
+|------|--------|
+| Shorten new URL | ✅ creates new short code |
+| Shorten same URL again | ✅ returns existing short code |
+| Shorter URL | ✅ still works and redirects |
+| Different URL | ✅ creates different short code |
+| Duplicate detection with existing database | ✅ works across restarts |
+
+**Time spent:** 1.5 hours
+
+**Next (Day 6):** Integrate `UrlValidator` to reject invalid URLs before saving
+
+**Sleep:** 7 hours
+
 ## Summary (Apr 13 – May 5)
 
 | Topic | Problems Solved |
