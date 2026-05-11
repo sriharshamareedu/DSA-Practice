@@ -120,13 +120,14 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 - [x] Browser redirect verification – completed May 7, 2026
 - [x] HTML frontend – completed May 9, 2026
 - [x] H2 database persistence – completed May 10, 2026
+- [x] Duplicate URL detection – same long URL → same short code (May 11, 2026)
 - [ ] Custom short codes feature (optional)
 - [ ] Click analytics dashboard (optional)
 - [ ] Deployment (Railway/Heroku)
 
 **API Endpoints Implemented:**
-- `POST /shorten` – Creates short URL from long URL
-- `GET /short/{shortCode}` – Redirects to original URL (prefix ensures static assets like `/index.html` are not intercepted)
+- `POST /shorten` – Creates short URL from long URL (returns existing short code if URL already shortened)
+- `GET /short/{shortCode}` – Redirects to original URL
 
 **Tech Stack:** Spring Boot 4.0.6, Java 17, Maven, H2 Database, JPA/Hibernate, Base62 encoding
 
