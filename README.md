@@ -111,9 +111,37 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 - [ ] Minimum Remove to Make Valid Parentheses (scheduled Aug 26)
 - [ ] Design Circular Queue (scheduled Aug 27)
 
-## Projects
-- [ ] URL Shortener (June 7–13)
-- [ ] Task Manager API (July 5–11)
+### Projects
+
+#### URL Shortener
+- [x] Core logic (Base-62 encoding) – completed May 6, 2026
+- [x] Spring Boot REST API – completed May 7, 2026
+- [x] Local testing with curl/PowerShell – completed May 7, 2026
+- [x] Browser redirect verification – completed May 7, 2026
+- [x] HTML frontend – completed May 9, 2026
+- [x] H2 database persistence – completed May 10, 2026
+- [x] Duplicate URL detection – same long URL → same short code (May 11, 2026)
+- [x] URL validation – rejects malformed URLs (May 12, 2026)
+- [ ] Custom short codes feature (optional)
+- [ ] Click analytics dashboard (optional)
+- [ ] Deployment (Railway/Heroku)
+
+**API Endpoints Implemented:**
+- `POST /shorten` – Creates short URL from long URL (returns existing short code if URL already shortened)
+- `GET /short/{shortCode}` – Redirects to original URL
+
+**Tech Stack:** Spring Boot 4.0.6, Java 17, Maven, H2 Database, JPA/Hibernate, Base62 encoding
+
+**Database:** H2 file-based (`./data/urlshortener`).  
+H2 console available at `/h2-console` (JDBC URL: `jdbc:h2:file:./data/urlshortener`, user `sa`, empty password).
+
+Original schedule: June 7–13 (completed 1 month ahead of schedule ✅)
+
+### Task Manager API (July 5–11)
+- [ ] Planning
+- [ ] Implementation
+- [ ] Testing & deployment
+- [ ] Testing & deployment
 
 ## How to use this repo
 Each solved problem is saved under its topic folder with date and complexity notes.  

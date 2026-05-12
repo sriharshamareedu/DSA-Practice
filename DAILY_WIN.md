@@ -137,13 +137,180 @@
 - **Total problems solved now:** 31
 
 ## May 5, 2026 (Tuesday)
-- ✅ Slept only 5.5 hours - need to priortize sleep tonight
+- ⚠️ Slept only 5.5 hours - need to priortize sleep tonight
 - ✅ Solved Remove All Adjacent Duplicates In String (LC 1047) – on my own, used Deque
 - ⚠️ Solved Simplify Path (LC 71) – needed help: split('/') idea didn't occur; had confusion with dots
 - ✅ Learned: path canonicalization pattern – split, stack, skip `.`, go back on `..`
 - ✅ Updated README, spreadsheet, daily win
 - **Total problems solved now:** 33
 ---
+
+## May 6, 2026 (Wednesday)
+- ✅ Created Java cheat sheet (`JAVA_CHEAT_SHEET.md`) – common syntax for DSA
+- ✅ Installed/confirmed JDK on new laptop (OpenJDK 25)
+- ✅ Added URL Shortener core logic (Base-62 encoding) to repo
+- ✅ Updated README with project tracking
+- ⚠️ Slept only 5.5 hours - need to priortize sleep tonight
+
+## May 7, 2026 (Thursday)
+- ✅ Slept 6.5 hours
+- ✅ Completed URL Shortener Spring Boot REST API
+- ✅ Fixed critical bug: shortCode vs full URL mismatch in controller/service layers
+- ✅ Implemented Base62 encoding for short code generation
+- ✅ Tested API thoroughly:
+  - POST `/shorten` – successfully creates short URLs
+  - GET `/{shortCode}` – successfully redirects to original URLs
+  - Browser testing – verified redirect to google.com works
+- ✅ Debugged NullPointerException – root cause: passing full URL instead of shortCode
+- ✅ Updated README with project completion status
+- ✅ Created comprehensive API documentation
+- **Total problems solved now:** 33 (no new DSA today – focused on project)
+
+## May 8, 2026 (Friday)
+- ✅ Slept 6 hours
+- ✅ Day 3 of URL Shortener project – Spring Boot web layer
+- ✅ Added HTML frontend (`index.html`) in `static/` folder
+- ✅ Created `UrlValidator.java` service (URL format checking)
+- ✅ Attempted to integrate frontend with backend API
+- ⚠️ **Stuck on:** Browser `http://localhost:8080` gave "site can’t be reached" because `/{shortCode}` was consuming `/index.html` request
+- ✅ **Debugging win:** Identified root cause – wildcard `@GetMapping("/{shortCode}")` intercepts all single‑segment paths including static assets
+- ✅ Proposed fix: change redirect endpoint to `/short/{shortCode}` (prefix pattern)
+- ⏸️ Stopped for the day – will apply fix tomorrow morning
+- 📝 **Learned:** Spring MVC maps controller methods BEFORE static resources. Need to reserve a prefix for short codes (`/s/` or `/short/`).
+- 🎯 **Next step (May 9):** Implement prefix change, test form submission, get full redirect working
+- **Total DSA problems solved:** 33 (no new today – project focused)
+
+### Today’s Debugging Notes
+| Problem | Hypothesis | Test | Conclusion |
+|---------|------------|------|-------------|
+| `http://localhost:8080` unreachable | App not running? | Checked terminal – `Started` message present | App is running |
+| Still unreachable | Port conflict? | `netstat -ano` – no other process on 8080 | Port is free |
+| Log shows “Short code not found: index.html” | `/{shortCode}` is matching `/index.html` | Added `@GetMapping("/")` to serve index explicitly | ✅ **Root cause confirmed** |
+
+**Fix to apply tomorrow:**
+```java
+@GetMapping("/short/{shortCode}")  // instead of @GetMapping("/{shortCode}")
+```
+
+### Key Learnings from URL Shortener Project:
+1. **Controller-Service separation** – Keep responsibilities clear
+2. **URL format consistency** – Don't mix `http://localhost:8080` with `https://short.link`
+3. **Null safety** – Always check for null before using values
+4. **Spring Boot annotations** – `@RestController`, `@PostMapping`, `@GetMapping`, `@PathVariable`
+5. **Testing methodology** – Use separate terminal for testing while app runs
+
+### Testing Commands Used:
+```powershell
+# Create short URL
+Invoke-RestMethod -Uri "http://localhost:8080/shorten" -Method POST -Body "https://www.google.com" -ContentType "text/plain"
+
+# Output: {"shortUrl":"http://localhost:8080/15FTGg"}
+
+# Test redirect (in browser)
+http://localhost:8080/15FTGg  # ✅ Redirects to google.com
+```
+
+## May 9, 2026 (Saturday)
+
+### Project: URL Shortener – Web Interface Complete
+
+- ✅ Fixed function name typo (`shortUrl` → `shortenUrl`) in HTML button
+- ✅ Applied routing prefix `/short/` to avoid static asset collision
+- ✅ Corrected two HTML typos (`copyToClipboard` spelling, missing anchor tag closing)
+- ✅ Debugged 500 error on redirect – root cause: uninitialized `clickCount`
+- ✅ Added `clickCount.put(shortCode, 0)` in `shortenUrl()` method
+- ✅ **URL Shortener fully working!** – HTML form, redirects, clipboard copy, click tracking all functional
+- ✅ Frontend now communicates with backend REST API seamlessly
+- 🎉 Project milestone reached: complete web interface + REST API
+
+### Testing Results
+
+| Test | Result |
+|------|--------|
+| `http://localhost:8080` loads HTML form | ✅ |
+| Enter URL, click button | ✅ returns short link |
+| Click short link | ✅ redirects with HTTP 302 |
+| Copy to clipboard | ✅ works |
+| Invalid URL (no http://) | ✅ shows error |
+| Unknown short code | ✅ returns 404 |
+| Click count tracking | ✅ increments on each redirect |
+
+**Time spent:** ~2 hours (debugging + fixes)
+
+**Next (Day 4):** Add H2 database persistence so URLs survive app restart
+
+**Sleep:** 7 hours (well rested)
+
+## May 10, 2026 (Sunday)
+
+### Project: URL Shortener – Database Persistence & H2 Console
+
+- ✅ Fixed `pom.xml` – replaced `spring-boot-starter-webmvc` with `spring-boot-starter-web`
+- ✅ Added `spring-boot-h2console` starter for web console support
+- ✅ Added `@PostConstruct` counter initialisation using `repository.count()` to avoid duplicate key errors after restarts
+- ✅ Created `H2ConsoleConfig` (later removed in favour of official starter) – console now works at `http://localhost:8080/h2-console`
+- ✅ Verified database table `URL_MAPPINGS` contains all shortened URLs
+- ✅ Observed that the same long URL produces multiple short codes (design choice – acceptable for analytics)
+- ✅ Discussed optional duplicate detection (to be added later if needed)
+- ✅ Updated `UrlMappingRepository` with `findByOriginalUrl` method (prepared for future deduplication)
+
+### Testing Results
+
+| Test | Result |
+|------|--------|
+| Shorten a URL | ✅ returns new short code |
+| Restart app, shorten same URL | ✅ creates another code (different) |
+| H2 console accessible | ✅ at `/h2-console` |
+| Database persists across restarts | ✅ data remains |
+| Redirect works | ✅ HTTP 302 |
+| Click count increments | ✅ logged and stored |
+
+**Time spent:** ~2 hours (debugging H2 console, fixing counter, testing)
+
+**Next (Day 5):** Implement duplicate detection OR URL validator integration
+
+**Sleep:** 6.5 hours
+
+## May 11, 2026 (Monday)
+
+### Project: URL Shortener – Duplicate Detection
+
+- ✅ Added `findByOriginalUrl` method in `UrlMappingRepository`
+- ✅ Modified `shortenUrl()` to check for existing URL before creating a new short code
+- ✅ Same long URL now returns the same short code on repeated requests
+- ✅ Tested: shortened `https://www.google.com` twice → identical short code returned both times
+- ✅ Verified in H2 console: only one entry for each unique long URL
+- 🎉 Day 5 complete – duplicate detection implemented
+
+### Testing Results
+
+| Test | Result |
+|------|--------|
+| Shorten new URL | ✅ creates new short code |
+| Shorten same URL again | ✅ returns existing short code |
+| Shorter URL | ✅ still works and redirects |
+| Different URL | ✅ creates different short code |
+| Duplicate detection with existing database | ✅ works across restarts |
+
+**Time spent:** 1.5 hours
+
+**Next (Day 6):** Integrate `UrlValidator` to reject invalid URLs before saving
+
+**Sleep:** 7 hours
+
+## May 12, 2026 (Tuesday)
+
+### Project: URL Shortener – URL Validation
+
+- ✅ Integrated `UrlValidator` into `UrlShortenerController`
+- ✅ Added validation before shortening: checks format and scheme (http/https)
+- ✅ Invalid URLs now return 400 Bad Request with clear error message
+- ✅ Tested various cases: valid, missing scheme, malformed, empty
+- 🎉 Day 6 complete – input validation improves robustness
+
+**Next (Day 7):** Custom short codes OR deployment preparation
+
+**Time spent:** 1.5 hours
 
 ## Summary (Apr 13 – May 5)
 
@@ -161,6 +328,6 @@
 | Redos (counted separately) | 2 (Valid Palindrome, Longest Common Prefix) |
 | **Total new problems** | **29* |
 
-**Status:** Week 7 (Linked List Basics) completed on May 3 – more than 3 weeks ahead of schedule.  
-**Next:** Solve Simplify Path (LC 71)
+**Status:** Week 8 (Stack & Queue) completed on May 5 – more than 4 weeks ahead of schedule.  
+**Next:** Complete URL Shortener project (core logic done), then move to Week 10 (Trees - Traversals).  
 **Sleep goal:** Maintain 7+ hours – in bed by 10:00 PM, no screens after 9:30 PM.
