@@ -298,6 +298,20 @@ http://localhost:8080/15FTGg  # ✅ Redirects to google.com
 
 **Sleep:** 7 hours
 
+## May 12, 2026 (Tuesday)
+
+### Project: URL Shortener – URL Validation
+
+- ✅ Integrated `UrlValidator` into `UrlShortenerController`
+- ✅ Added validation before shortening: checks format and scheme (http/https)
+- ✅ Invalid URLs now return 400 Bad Request with clear error message
+- ✅ Tested various cases: valid, missing scheme, malformed, empty
+- 🎉 Day 6 complete – input validation improves robustness
+
+**Next (Day 7):** Custom short codes OR deployment preparation
+
+**Time spent:** 1.5 hours
+
 ## Summary (Apr 13 – May 5)
 
 | Topic | Problems Solved |
