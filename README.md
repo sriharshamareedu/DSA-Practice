@@ -121,6 +121,7 @@ I am preparing for Software Development Engineer (SDE-1) roles at mid‑sized pr
 - [x] HTML frontend – completed May 9, 2026
 - [x] H2 database persistence – completed May 10, 2026
 - [x] Duplicate URL detection – same long URL → same short code (May 11, 2026)
+- [x] URL validation – rejects malformed URLs (May 12, 2026)
 - [ ] Custom short codes feature (optional)
 - [ ] Click analytics dashboard (optional)
 - [ ] Deployment (Railway/Heroku)
